@@ -2,6 +2,8 @@ import { Request, Response, Router } from "express";
 import * as db from "../db";
 import { PostDTO } from "../models/post";
 
+//in questo esercizio stiamo provando a collegare il front end con il back end, il frontend è l esercizio NODE e ANGUALR
+
 const router = Router();
 
 router.get("/", (req: Request, res: Response) => {
